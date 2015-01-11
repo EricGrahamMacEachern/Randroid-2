@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Randroid</string>
-    <string name="hello_world">Hello world!</string>
+    <!--' action settings string '-->
     <string name="action_settings">Settings</string>
+    <!--' app name '-->
+    <string name="app_name">Randroid</string>
+    <!--' activity_main user instruction '-->
+    <string name="activity_main">activity main</string>
+
+    <!--' Screen titles. '-->
+    <!--' settings menu title '-->
+    <string name="settings">SETTINGS</string>
+    <!--' choose_mode user instruction '-->
+    <string name="choose_mode">Choose mode.</string>
+    <!--' choose_output user instruction '-->
+    <string name="choose_output">Choose output format.</string>
+    <!--' choose_quality user instruction '-->
+    <string name="choose_quality">Choose output quality.</string>
+    <!--' choose_max GB for download directory '-->
+    <string name="choose_max">Choose maximum GB.</string>
+    <!--' downloading wait screen '-->
+    <string name="downloading">Converting and downloading...</string>
+    <!--' downloading percent complete'-->
+    <string name="percent_complete">76% complete</string>
+
+    <!--' Colors '-->
+    <!--' conversion stage background color '-->
+    <color name="red">#FF0000</color>
+    <!--' conversion stage background color '-->
+    <color name="purple">#A020F0</color>
+    <!--' button text color '-->
+    <color name='black'>#000000</color>
+    <!--' app action choice button color '-->
+    <color name="android_green">#96EA30</color>
+    <!--' user choice button color '-->
+    <color name="R_blue">#99A6C1</color>
 
 </resources>

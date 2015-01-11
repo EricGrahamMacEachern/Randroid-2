@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#A020F0"
+    >
+
+    <TextView android:text="@string/choose_max" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <View
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="150dp"
+        android:background="#000"/>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/max"
+        android:layout_centerHorizontal="true"
+        android:background="#99A6C1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="sendMessage"
+        android:layout_marginTop="125dip"
+        android:fontFamily="Courier"
+        android:text="32"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/unlimited"
+        android:background="#99A6C1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:onClick="sendMessage"
+        android:layout_marginTop="300dip"
+        android:text="unlimited"
+        android:textColor="#000000"
+        android:textSize="50dp"/>
+
+</RelativeLayout>

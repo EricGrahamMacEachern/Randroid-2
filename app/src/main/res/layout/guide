@@ -1,0 +1,46 @@
+Eric, 10/01/2015
+
+I have made some concept XML for the app. I am new to XML and I am sure there will be lots of
+improvements to the UI.
+
+I have kept things simple and used colors that I have seen on other Android apps. I took the R_blue
+and android_green colors directly from the logos of R and Android.
+
+Currently, these are the steps of Randroid:
+
+1. settings.xml
+- CHOOSE DRIVE goes nowhere yet, but should select the user's drive to be used for the download.
+- CHOOSE DOWNLOAD DIRECTORY goes nowhere yet, but should go to a directory on the Android phone.
+- CHOOSE DOWNLOAD LIMIT should go to download_limit.xml
+
+2. choose_mode.xml
+- AUTOMATIC MODE should go to choose_output.xml.
+- MANUAL MODE goes nowhere yet, but should go to the user's drive for manual file selection, and
+  then it should go to choose_output.xml.
+
+3. choose_output.xml
+- JPG does not do anything yet, bus should select JPG format as the conversion format.
+- PNG does not do anything yet, but should select PNG format as the conversion format.
+
+4. choose_quality.xml
+- HIGH QUALITY does not do anything yet, but should use the lowest compression level.
+- MEDIUM QUALITY does not do anything yet, but should use the medium compression level.
+- LOW QUALITY does not do anything yet, but should use the lowest compression level.
+
+5. download_limit.xml
+- The "slider" is not actually a slider. It's just an image with a button on it. When this is
+  turned into a slider, it should limit the size of the destination directory to  prevent the
+  user from filling their entire memory card with images.
+- UNLIMITED does not do anything yet, but should eventually allow for limitless downloading.
+  The user's hardware will be the only limitation. This will probably require catching and
+  throwing an error.
+
+6. downloading.xml
+- This progress bar is not yet implemented. It should represent how many of the files have been
+  converted and downloaded.
+- The large "percent completed ???%" text is optional. Alternatively, we could incorporate it into
+  the progress bar itself.
+
+final notes and comments:
+
+This is a very rough draft with no Java implementation yet. I will get that done tomorrow.
